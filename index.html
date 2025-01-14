@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Interactive Quiz</title>
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h1>Welcome to the Quiz!</h1>
+      <p>Test your knowledge about physics!</p>
+      <form id="quiz-form">
+        <!-- Question 1: Multiple Choice -->
+        <div class="question">
+          <h2>1. Which scientist is known for the theory of relativity?</h2>
+          <label
+            ><input type="radio" name="q1" value="a" /> A) Isaac Newton</label
+          ><br />
+          <label
+            ><input type="radio" name="q1" value="b" /> B) Albert
+            Einstein</label
+          ><br />
+          <label
+            ><input type="radio" name="q1" value="c" /> C) Nikola Tesla</label
+          ><br />
+          <label
+            ><input type="radio" name="q1" value="d" /> D) Galileo
+            Galilei</label
+          ><br />
+        </div>
+
+        <!-- Question 2: Multiple Choice -->
+        <div class="question">
+          <h2>2. Which of the following is a unit of energy?</h2>
+          <label><input type="radio" name="q2" value="a" /> A) Newton</label
+          ><br />
+          <label><input type="radio" name="q2" value="b" /> B) Watt</label
+          ><br />
+          <label><input type="radio" name="q2" value="c" /> C) Volt</label
+          ><br />
+          <label><input type="radio" name="q2" value="d" /> D) Joule</label
+          ><br />
+        </div>
+
+        <!-- Question 3: Multiple Choice -->
+        <div class="question">
+          <h2>3. What is the formula for calculating work done?</h2>
+          <label
+            ><input type="radio" name="q3" value="a" /> A) Work = Force ×
+            Distance</label
+          ><br />
+          <label
+            ><input type="radio" name="q3" value="b" /> B) Work = Force ÷
+            Distance</label
+          ><br />
+          <label
+            ><input type="radio" name="q3" value="c" /> C) Work = Distance ÷
+            Force</label
+          ><br />
+          <label
+            ><input type="radio" name="q3" value="d" /> D) Work = Mass ×
+            Acceleration</label
+          ><br />
+        </div>
+        <div class="question">
+          <h2>
+            4. Which of the following are vector quantities? (Select all that
+            apply)
+          </h2>
+          <label
+            ><input type="checkbox" name="q4" value="a" /> A) Velocity</label
+          ><br />
+          <label><input type="checkbox" name="q4" value="b" /> B) Speed</label
+          ><br />
+          <label><input type="checkbox" name="q4" value="c" /> C) Force</label
+          ><br />
+          <label
+            ><input type="checkbox" name="q4" value="d" /> D) Distance</label
+          ><br />
+        </div>
+
+        <!-- Question 5: Numeric Input -->
+        <div class="question">
+          <h2>
+            5. What is the approximate value of gravitational acceleration on
+            Earth? (Enter a number, e.g., 9.8)
+          </h2>
+          <label>Answer: <input type="number" name="q5" step="0.1" /></label>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit Quiz</button>
+      </form>
+    </div>
+  </body>
+</html>
